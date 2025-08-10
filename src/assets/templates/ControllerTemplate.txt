@@ -1,0 +1,29 @@
+package com.ucaro.controller;
+
+import com.ucaro.request.{taskName}Request;
+import com.ucaro.response.{taskName}Response;
+
+/**
+ * The Class {taskName}Controller.
+ */
+@Slf4j
+@RestController
+public class {taskName}Controller extends BaseNewController<{taskName}Request, {taskName}Response>{
+
+    /**
+     * Constructor.
+     */
+    public {taskName}Controller() {
+        log.info("{taskName}Controller");
+    }
+
+    /**
+     * {jpName}.
+     */
+    {mappingAnnotation}
+    public ResponseEntity<{taskName}Response> {taskName}(@Valid {requestType} {taskName}Request request) {
+
+        return execute(request);
+    }
+
+}

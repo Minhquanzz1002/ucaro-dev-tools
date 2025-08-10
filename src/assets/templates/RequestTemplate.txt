@@ -1,0 +1,15 @@
+package com.ucaro.request;
+
+import jakarta.validation.constraints.NotNull;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+/**
+ * The Class {taskName}Request.
+ */
+@Data
+@NotNull
+@EqualsAndHashCode(callSuper = true)
+public class {taskName}Request extends BaseNewRequest {
+
+}

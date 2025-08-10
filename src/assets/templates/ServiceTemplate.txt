@@ -1,0 +1,26 @@
+package com.ucaro.service;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+
+/**
+ * The Class {taskName}Service.
+ */
+ @Slf4j
+@Service
+public class {taskName}Service extends BaseService {
+
+     /**
+      * Handle {comment}.
+      *
+      * @param request the request
+      * @return the response
+      */
+    public {taskName}Response handle{taskName}({taskName}Request request) {
+
+        {taskName}Response response = new {taskName}Response();
+
+        return response;
+    }
+
+}
